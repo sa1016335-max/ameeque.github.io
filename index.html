@@ -18,20 +18,20 @@
         h2 { font-size: 1.5rem; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 40px; }
         h3 { font-size: 1.2rem; margin-bottom: 5px; color: #000; }
         
-        a { color: #008080; text-decoration: none; } /* Matches your CV Teal */
+        a { color: #008080; text-decoration: none; } /* Teal Color */
         a:hover { text-decoration: underline; }
         
         .header { margin-bottom: 40px; }
         .sub-header { color: #666; font-size: 1.1rem; }
         
         .paper { margin-bottom: 25px; }
+        .job { margin-bottom: 25px; }
         .journal { font-style: italic; color: #555; }
-        .abstract { font-size: 0.95rem; color: #444; margin-top: 5px; display: none; } /* Hidden by default */
+        .meta { font-size: 0.95rem; color: #666; margin-bottom: 5px;}
         
         .nav { margin-top: 15px; }
         .nav a { margin-right: 15px; font-weight: bold; font-size: 1.1rem; }
 
-        /* Button to download CV */
         .btn {
             display: inline-block;
             background-color: #008080;
@@ -47,13 +47,13 @@
 
     <!-- HEADER -->
     <div class="header">
-        <h1>Ameeque -</h1>
+        <h1>Ameeque [Last Name]</h1>
         <div class="sub-header">M.Sc. in Economics, HSE University</div>
         <div class="sub-header">Development Economics | Education | Public Policy</div>
         
         <div class="nav">
             <a href="mailto:amiek@edu.hse.ru">Email</a>
-            <a href="CV_Ameeque.pdf.pdf" class="btn">Download CV</a>
+            <a href="CV_Ameeque.pdf" class="btn">Download CV</a>
         </div>
     </div>
 
@@ -61,7 +61,9 @@
     <section>
         <h2>About Me</h2>
         <p>
-            I am an <strong>M.Sc. graduate in Economics</strong> from <strong>HSE University (Moscow)</strong> and a Fulbright Alumnus. My research focuses on <strong>Development Economics</strong> and the <strong>Economics of Education</strong>, specifically using applied econometrics to evaluate policy interventions.
+            I am an M.Sc. graduate in Economics from <strong>HSE University (Moscow)</strong> and a Fulbright Alumnus. 
+            My research focuses on <strong>Development Economics</strong> and the <strong>Economics of Education</strong>, specifically using applied econometrics to evaluate policy interventions.
+        </p>
         <p>
             Previously, I worked as a Research Assistant at the <strong>Centre for Economic Research in Pakistan (CERP)</strong> and as a Research Intern at <strong>IFAT (Hungary)</strong>.
             I have extensive experience with large-scale household datasets, RCT implementation, and causal inference using Stata and R.
@@ -70,9 +72,8 @@
 
     <!-- RESEARCH SECTION -->
     <section>
-        <h2>Research</h2>
+        <h2>Research Papers</h2>
         
-        <!-- Paper 1 -->
         <div class="paper">
             <h3><a href="https://doi.org/10.1016/j.ijedro.2025.100571">Creative Thinking, Mathematics Achievement, and Well-being</a></h3>
             <div class="journal">International Journal of Educational Research Open, 2025</div>
@@ -81,13 +82,73 @@
             </p>
         </div>
 
-        <!-- Paper 2 -->
         <div class="paper">
             <h3><a href="https://dx.doi.org/10.2139/ssrn.5369543">Assessing the Impact of US Public Procurement on Economic Development</a></h3>
             <div class="journal">Working Paper (Available on SSRN)</div>
             <p>
                 Analyzed public procurement efficiency by integrating three large-scale U.S. government datasets (FPDS, FEVS, FedScope) using an Instrumental Variable (IV) strategy.
             </p>
+        </div>
+    </section>
+
+    <!-- ACADEMIC SERVICE SECTION (NEW) -->
+    <section>
+        <h2>Academic Service</h2>
+        <p>
+            <strong>Referee:</strong> <em>International Journal of Educational Research Open</em> (Elsevier)
+        </p>
+    </section>
+
+    <!-- EXPERIENCE SECTION (UPDATED TO NARRATIVE STYLE) -->
+    <section>
+        <h2>Experience</h2>
+
+        <div class="job">
+            <h3>Research Intern | Institute for Foreign Affairs and Trade (IFAT)</h3>
+            <div class="meta">Feb 2024 – Jun 2024 | Budapest, Hungary</div>
+            <p>
+                Provided research support to senior fellows by conducting literature reviews and synthesizing policy data. Developed an independent research project analyzing key foreign policy issues under senior mentorship.
+            </p>
+        </div>
+
+        <div class="job">
+            <h3>Research Assistant | Centre for Economic Research in Pakistan (CERP)</h3>
+            <div class="meta">Dec 2022 – Jun 2023 | Lahore, Pakistan</div>
+            <p>
+                Analyzed a longitudinal dataset of 31,495 households using Stata and R to identify barriers to women's economic empowerment. Assisted with RCT implementation, randomization protocols, and data cleaning. Contributed to policy briefs for stakeholders (PSDF) by synthesizing historical findings with new data.
+            </p>
+        </div>
+
+        <div class="job">
+            <h3>Market Research Analyst | Silverlight Research Group</h3>
+            <div class="meta">Aug 2025 – Present | Hyderabad, Pakistan</div>
+            <p>
+                Conduct market mapping and industry analysis to identify key economic agents and experts for institutional clients. Translate complex research requirements into targeted data acquisition strategies.
+            </p>
+        </div>
+
+        <div class="job">
+            <h3>Intl. Support Specialist | Yandex</h3>
+            <div class="meta">Aug 2024 – Mar 2025 | Moscow, Russia</div>
+            <p>
+                Synthesized qualitative user feedback to identify friction points, directly informing product strategy. Analyzed consumer data trends to guide service enhancements.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section>
+        <h2>Education</h2>
+        <div class="job">
+            <h3>M.Sc. in Economics (Applied Economics)</h3>
+            <div class="meta">HSE University | Moscow, Russia | 2023 – 2025</div>
+            <p><em>Awards:</em> Russian State Scholarship (Full Tuition), Vladimir Potanin Foundation Scholarship.</p>
+        </div>
+
+        <div class="job">
+            <h3>Study of the U.S. Institutes (SUSI)</h3>
+            <div class="meta">University of Massachusetts Amherst | USA | 2021 – 2022</div>
+            <p>Selected for U.S. Dept. of State program; completed policy seminars, capstone project, and visits to Harvard, MIT, and UN.</p>
         </div>
     </section>
 
